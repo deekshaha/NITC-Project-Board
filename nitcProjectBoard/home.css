@@ -1,0 +1,145 @@
+
+$dark_gray: #2B2E2E;
+$light_gray: #C0C1C1;
+$green: #33CD99;
+$blue: #0000FF;
+
+button, .button {
+	    background-color: blue;   
+        width: 30%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer; 
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.wrapper_with_padding {
+	width: 80%;
+	margin: 0 auto;
+	padding: 3.5rem 0;
+}
+
+#banner {
+	background-image: url("welcome.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	min-height: 500px;
+	display: table;
+}
+
+#banner .banner_content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#banner .banner_content h1 {
+	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 3.5rem;
+	margin: 0;
+}
+
+#banner .banner_content p {
+	font-size: 1.5rem;
+	margin: 0 0 2.5rem 0;
+	color: rgba(250, 250, 250, 0.5);
+}
+
+#testimonial {
+	text-align: center;
+	font-size: 1.5rem;
+	color: #afb0b0;
+	padding: 3.5rem 0;
+}
+
+#testimonial .quote {
+	margin: 0 0 .5rem 0;
+}
+
+#testimonial .name {
+	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #2B2E2E;
+	margin: 0;
+	font-size: .85rem;
+}
+
+#callouts {
+	background-image: url("callout_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	min-height: 380px;
+	display: table;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#callouts .callout_inner {
+	display: table-cell;
+	vertical-align: middle;	
+}
+
+#callouts .callout1 {
+	text-align: center;
+	width: 33.3333%;
+	padding: 1.5rem 2.5%;
+	float: left;
+}
+#callouts .callout2 {
+	text-align: center;
+	width: 33.3333%;
+	padding: 1.5rem 2.5%;
+	float: right;
+}
+
+#callouts .callout1 h2, .callout2 h2 {
+	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 0;
+}
+
+#callouts .callout1 p ,.callout2 p{
+	color: rgba(250, 250, 250, 0.4);
+}
+
+#bottom_cta {
+	background-image: url("white.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	text-align: center;
+	padding: 7rem 0;
+	max-height: 350px;
+}
+
+#bottom_cta h2 {
+	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #2B2E2E;
+	font-size: 3rem;
+	margin: 0;
+}
+
+#bottom_cta p {
+	font-size: 1.75rem;
+	margin: 0 0 2.5rem 0;
+	color: #000000;
+}

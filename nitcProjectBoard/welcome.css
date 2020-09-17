@@ -1,0 +1,87 @@
+$dark_gray: #2B2E2E;
+$light_gray: #C0C1C1;
+$green: #33CD99;
+$blue: #0000FF;
+
+
+button {   
+       background-color: blue;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }  
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.wrapper_with_padding {
+	width: 80%;
+	margin: 0 auto;
+	padding: 3.5rem 0;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+#notess {
+	background-image: url("walls.jpg");
+	background-repeat: repeat;
+	text-align: center;
+	align-self: center;
+	align-items: center;
+	padding: 1.5rem 0;
+}
+
+#notess h2 {
+	color: #ffffff;
+	background: #000000;
+	border: #0000FF;
+	font-size: 4rem;
+	text-align: center;
+	align-self: center;
+	align-items: center;
+}
+
+#notess h {
+	color: white;
+	font-size: 3rem;
+}
+
+#notess .note {
+	background: #C0C1C1;
+	width: 90%;
+	min-height: 190px;
+	margin: auto;
+	border-radius: .4rem;
+	position: relative;
+	color: black;
+	display: block;
+}
+
+#notess .note h3 {
+	color: darkblue;
+}
+
+#notess .note .title {
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+#notess .note .content {
+	text-align: justify;
+	margin-left: 0.5rem;
+	white-space: pre-wrap;
+	max-height: 140px;
+	overflow: auto;
+	letter-spacing: 0.5px;
+}
+

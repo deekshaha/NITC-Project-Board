@@ -1,0 +1,40 @@
+<html>
+<head> 
+            <h1>   Add a project : </h1>
+           <link rel = "stylesheet" href = "stylesheet.css">
+           </style>           
+</head>
+<body style="background-image: url('wall1.jpg');background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    ">
+
+<div class="container">
+  <form action="input.php" method = "POST">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">*Enter : Project Name | Your name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="yourname" placeholder="" class = "form-control">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">*Enter : Project description | Team Members Required | Your contact </label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea> 
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Post Project" class =  "btnRegister" name = "submit">
+    </div>
+  </form>
+  <a href="home.html"><button>GO BACK TO HOME PAGE</button></a>
+      <a href="delete.php"><button>SEE POSTED PROJECTS</button></a>
+</div>
+</body>
+</html>
+
